@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Email Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #DDDDDD;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .header-image {
+            width: 130px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .welcome-text {
+            color: #FF000F;
+            font-size: 18pt;
+            margin-bottom: 10px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .verification-text {
+            color: #000000;
+            font-size: 18pt;
+            margin-bottom: 10px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .code-text {
+            color: #000000;
+            font-size: 9pt;
+            margin-bottom: 10px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .white-bar {
+            background-color: #FFFFFF;
+            height: 48px;
+            width: 100%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            margin-bottom: 20px;
+        }
+
+        .code-field {
+            text-align: center;
+            color: #FF000F;
+            font-size: 25pt;
+            margin-bottom: 50px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        .red-rectangle {
+            background-color: #FF000F;
+            height: 220px;
+            width: 100%;
+            position: relative;
+            margin-top: 26%;
+        }
+
+        .elevated-image-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            max-width: 135px;
+            max-height: 60px;
+        }
+
+          .elevated-image-container {
+            position: absolute;
+            top: -55%;
+            left: 23%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            max-width: 135px;
+            max-height: 60px;
+            scale: 0.5;
+        }
+
+        .image-row {
+            display: flex;
+            justify-content: center;
+            margin-top: 1px;
+        }
+
+        .image-column {
+            flex-basis: 100%;
+            text-align: center;
+        }
+
+        .image-link {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .image-link img {
+            width: 270px;
+            height: 140px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="header-image" src="https://i.imgur.com/154PFcO.png" alt="Header Image">
+        <div class="welcome-text">Bienvenido/a</div>
+        <div class="verification-text">VERIFICACIÓN DE EMAIL</div>
+        <div class="code-text">Facilite al vendedor que lo está atendiendo el código que se muestra a continuación:</div>
+        <div class="white-bar">
+            <div class="code-field">3LDM</div>
+        </div>
+        <div class="red-rectangle">
+            <div class="elevated-image-container">
+                <img class="elevated-image" src="https://i.imgur.com/tdKTUdN.png" alt="Elevated Image">
+            </div>
+        </div>
+        <div style="height: 40px;"></div>
+        <div class="image-row">
+            <div class="image-column">
+                <a class="image-link" href="https://wa.me/543516278787">
+                    <img src="https://i.imgur.com/Md5Nd5E.png" alt="Image 1">
+                </a>
+                <a class="image-link" href="https://www.nicotiendas.com/sucursales">
+                    <img src="https://i.imgur.com/FOUMdwT.png" alt="Image 2">
+                </a>
+            </div>
+            <div class="image-column">
+                <a class="image-link" href="https://www.nicotiendas.com/">
+                    <img src="https://i.imgur.com/9SSqaN1.png" alt="Image 3">
+                </a>
+                <a class="image-link" href="mailto[atclientes@calzadosnico.com.ar](mailto:atclientes@calzadosnico.com.ar)">
+                    <img src="https://i.imgur.com/fsuvMlP.png" alt="Image 4">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
